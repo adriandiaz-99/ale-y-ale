@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <title>ALE & ALE</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="img/logo.jpeg" />
+</head>
+
+<body>
+    <!--Menu de navegacion-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark .navegacion">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.jpeg" alt="comidas delivery canning" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse menu" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menú</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#semanal">Menú Del Día</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Servicios-->
+    <section class="page-section" id="servicios">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Servicios</h2>
+                <h3 class="section-subheading text-muted-1">Estos son los servicios que ofrecemos.</h3>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <!--horario-->
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-clock fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Horarios de Atención</h4>
+                    <p class="text-muted-1">Lunes a Sabados de 09:00hs a 15:00hs.</p>
+                </div>
+                <div class="col-md-3">
+                    <!--horario-->
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-phone fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Medios de contacto</h4>
+                    <p class="text-muted-1">Comunicate Llamando al 2063-1350, o mediante Whatsapp pulsando el icono ubicado en la esquina inferior derecha.</p>
+                </div>
+                <div class="col-md-3">
+                    <!--vianda-->
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Viandas gastronomicas</h4>
+                    <p class="text-muted-1">Empleados de comercio, oficinas, empleados de obras y domicilio.</p>
+                </div>
+                <div class="col-md-3">
+                    <!--Comida-->
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-utensils fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Comidas 100% caseras</h4>
+                    <p class="text-muted-1">Viandas diarias, semanales y mensuales.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--menu-->
+    <section class="page-section bg-light" id="menu">
+        <div class="container">
+            <div class="text-center">
+                <button type="button" class="produc"><a class="a-1" href="menu.html">MENÚ</a></button>
+                <h3 class="section-subheading text-muted-1">En nuestro menú tenes gran variedad de viandas caseras, al plato,viandas light, minutas,etc.</h3>
+            </div>
+            <div class="row menu">
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="productos-item">
+                        <img class="img-fluid" src="img/portfolio/1.jpg" alt="" />
+                        <div class="productos-caption">
+                            <div class="productos-caption-heading">
+                                <h5>Super Promos</h5>
+                            </div>
+                            <div class="productos-caption-subheading text-muted-1">Super Promos de todos los dias.</div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Ver Más
+                      </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Super Promos</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul>
+                                        <li>½ Sandwich completo (milanesa o grillé) + Fritas $300</li>
+                                        <li>½ Sandwich completo de carne $220 de Pollo $200</li>
+                                        <li>½ Tortilla + ensalada (solo vegetales) o milanesas $300</li>
+                                        <li>3 Empanadas surtidas $180</li>
+                                        <li>½ Tortilla+ 2 empanadas $270</li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver</button>
+                                    <a href="https://api.whatsapp.com/send?phone=+541151625702&text=Hola%20Buenas,%20queria%20pedirte%20..." type="button" class="btn btn-primary" target="_blank">Quiero Pedir</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="productos-item">
+                        <img class="img-fluid" src="img/portfolio/al-plato.jpg" alt="" />
+                        <div class="productos-caption">
+                            <div class="productos-caption-heading">
+                                <h5>Al Plato</h5>
+                            </div>
+                            <div class="productos-caption-subheading text-muted-1">Variedad de platos caseros individuales.</div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop-1">
+                        Ver Más
+                      </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop-1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Plato de todos los días</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul>
+                                        <li>Milanesa de carne de ternera con guarnicion Chica $370 / Grande $420</li>
+                                        <li>Milanesa de pollo con guarnicion Chica $320 / Grande $370</li>
+                                        <li>Napolitana de carne con guarnicion Chica $400 / Grande $450 / XL $770</li>
+                                        <li>Spaghetti con manteca y queso $260</li>
+                                        <li>tortilla de papa completa (cebolla, morron, jamon y queso) $260</li>
+                                        <li>Churrasco con guarnicion Chica $370 / Grande $420</li>
+                                        <li>Grille con guarnicion Chica $320 / Grande $370</li>
+                                        <li>Grille Napolitana con guarnicion Chica $350 / Grande $400</li>
+                                        <li>Porción de fritas $170 / Grande $250</li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver</button>
+                                    <a href="https://api.whatsapp.com/send?phone=+541151625702&text=Hola%20Buenas,%20queria%20pedirte%20..." type="button" class="btn btn-primary" target="_blank">Quiero Pedir</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="productos-item">
+                        <img class="img-fluid" src="img/portfolio/ensalada.jpg" alt="" />
+                        <div class="productos-caption">
+                            <div class="productos-caption-heading">
+                                <h5>Ensaladas</h5>
+                            </div>
+                            <div class="productos-caption-subheading text-muted-1">Preparadas o armala gusto propio.</div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop-2">
+                        Ver Más
+                      </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop-2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Ensaladas</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul>
+                                        <li>Ensalada completa Chica $300 / Grande $350</li>
+                                        <li>Ingredientes de la completa (arroz,lechuga,tomate,zanahoria,remolacha,pollo,grille,lentejas,arvejas,choclo,huevo,jamon y queso)</li>
+                                        <li>Recorda que podes decirnos los ingredintes a eleccion y te armamos la ensalada a tu gusto</li>
+                                        <li><b>INGREDIENTES :</b>Arroz, arroz integral, lentejas ,arvejas, choclo, garbanzo, lechuga , tomate, remolacha rallada, zanahoria, huevo, jamón, queso, atún ,remolacha hervida, pollo grillé.</li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver</button>
+                                    <a href="https://api.whatsapp.com/send?phone=+541151625702&text=Hola%20Buenas,%20queria%20pedirte%20..." type="button" class="btn btn-primary" target="_blank">Quiero Pedir</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                    <div class="productos-item">
+                        <img class="img-fluid" src="img/portfolio/hamburguesadelentejas.jpg" alt="" />
+                        <div class="productos-caption">
+                            <div class="productos-caption-heading">
+                                <h5>Viandas light</h5>
+                            </div>
+                            <div class="productos-caption-subheading text-muted-1">Contamos con un menú light y vegano.</div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop-3">
+                        Ver Más
+                      </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop-3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Menú Light</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul>
+                                        <li>Medallón de calabaza con guarnicion Chica $300 / Grande $350</li>
+                                        <li>Hamburguesa de soja con guarnicion Chica $300 / Grande $350</li>
+                                        <li>Milanesa de berenjena con guarnicion Chica $300 / Grande $350</li>
+                                        <li>Hamburguesa de lenteja con guarnicion Chica $300 / Grande $350</li>
+                                        <li>Hamburguesa de arroz con guarnicion Chica $300 / Grande $350</li>
+                                        <li>Hamburguesa de garbanzos con guarnicion Chica $300 / Grande $350</li>
+                                        <li>Hamburguesa de brócoli con guarnicion Chica $300 / Grande $350</li>
+                                        <li>Hamburguesa de remolacha con guarnicion Chica $300 / Grande $350</li>
+                                        <li>Hamburguesa de arroz integral con guarnicion Chica $300 / Grande $350</li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver</button>
+                                    <a href="https://api.whatsapp.com/send?phone=+541151625702&text=Hola%20Buenas,%20queria%20pedirte%20..." type="button" class="btn btn-primary" target="_blank">Quiero Pedir</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                    <div class="productos-item">
+                        <img class="img-fluid" src="img/portfolio/milanesa.jpg" alt="" />
+                        <div class="productos-caption">
+                            <div class="productos-caption-heading">
+                                <h5>Minutas</h5>
+                            </div>
+                            <div class="productos-caption-subheading text-muted-1">Variedad de Sandwiches y Empanadas.</div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop-4">
+                        Ver Más
+                      </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop-4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Sandwiches y Empanadas</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul>
+                                        <li>Sandwich de carne de ternera completo (lechuga, tomate jamon y queso) $320 mas huevo $340</li>
+                                        <li>Sandwich de fiambre queso y jamón $230 ❖Sandwich Napolitano de carne $320 de pollo $270</li>
+                                        <li>Sándwich de churrasco completo $320 con huevo $340</li>
+                                        <li>Sándwich de hamburguesa de carne completo $320 con huevo $340</li>
+                                        <li>Sándwich de hamburguesa de pollo completo $270 con huevo $300</li>
+                                        <li>Sándwich de bondiola completo $270 más huevo $300</li>
+                                        <li>Empanadas de carné $70 c/u</li>
+                                        <li>Empanadas de jamón y queso $70 c/u</li>
+                                        <li>Empanadas de pollo $70 c/u</li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver</button>
+                                    <a href="https://api.whatsapp.com/send?phone=+541151625702&text=Hola%20Buenas,%20queria%20pedirte%20..." type="button" class="btn btn-primary" target="_blank">Quiero Pedir</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="productos-item">
+                        <img class="img-fluid" src="img/portfolio/Coca-cola.jpg" alt="" />
+                        <div class="productos-caption">
+                            <div class="productos-caption-heading">
+                                <h5>Acompañamientos</h5>
+                            </div>
+                            <div class="productos-caption-subheading text-muted-1">Elegui tu guarnicion,bebida y aderezo.</div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop-5">
+                        Ver Más
+                      </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop-5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Acompañamientos</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul>
+                                        <li><b>Guarniciónes</b></li>
+                                        <li>Puré mixto , calabaza ,puré de papa, arroz solo o con queso, fritas, ensaladas.</li>
+                                        <li><b>Bebidas</b></li>
+                                        <li>Placer $90</li>
+                                        <li>Manaos $100</li>
+                                        <li>Coca-Cola $180</li>
+                                        <li><b>Aderezos</b></li>
+                                        <li>Aceite oliva o girasol , aceto , vinagre , limón</li>
+                                        <li>Pan , cubiertos.</li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver</button>
+                                    <a href="https://api.whatsapp.com/send?phone=+541151625702&text=Hola%20Buenas,%20queria%20pedirte%20..." type="button" class="btn btn-primary" target="_blank">Quiero Pedir</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--menu semanal-->
+    <section class="page-section" id="semanal">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Menú del Dia</h2>
+            <h3 class="section-subheading text-muted-1">Viandas Ejecutivas de contratacion Quinsenal o Mensual. Contamos con Menús Diarios de Lunes a Viernes (Incluyen Guarnición).</h3>
+        </div>
+        <div class="row menu-semanal">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Viandas Ejecutivas</h4>
+                    </div>
+                    <div class="card-body">
+                        <img class="card-img-top" src="img/semana/viandas.jpg" alt="Card image cap">
+                        <h5 class="card-title">Tipo de contrataciones</h5>
+                        <p class="card-text">Podes contratar viandas Quinsenales o viandas Mensuales.</p>
+                        <a href="https://api.whatsapp.com/send?phone=+541151625702&text=Hola%20Buenas,%20queria%20Consultar%20acerca%20de%20las%20viandas%20Ejecutivas..." class="btn btn-primary" target="_blank">Contratar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Lunes</h4>
+                    </div>
+                    <div class="card-body">
+                        <img class="card-img-top" src="img/semana/pasta.jpg" alt="Card image cap">
+                        <h5 class="card-title">Pasta con salsa Bolognesa</h5>
+                        <p class="card-text">Vianda individual, incluye pan y cubiertos de ser necesario.</p>
+                        <a href="https://api.whatsapp.com/send?phone=+541151625702&text=Hola%20Buenas,%20te%20queria%20pedir%20un%20Menú%20del%20Día%20Lunes..." class="btn btn-primary" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Martes</h4>
+                    </div>
+                    <div class="card-body">
+                        <img class="card-img-top" src="img/semana/milanesares.jpg" alt="Card image cap">
+                        <h5 class="card-title">Escalope de carne</h5>
+                        <p class="card-text">Vianda individual, incluye pan y cubiertos de ser necesario.</p>
+                        <a href="https://api.whatsapp.com/send?phone=+541151625702&text=Hola%20Buenas,%20te%20queria%20pedir%20un%20Menú%20del%20Día%20Martes..." class="btn btn-primary" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Miercoles</h4>
+                    </div>
+                    <div class="card-body">
+                        <img class="card-img-top" src="img/semana/guiso-lentejas.JPG" alt="Card image cap">
+                        <h5 class="card-title">Guiso de lentejas</h5>
+                        <p class="card-text">Vianda individual, incluye pan y cubiertos de ser necesario.</p>
+                        <a href="https://api.whatsapp.com/send?phone=+541151625702&text=Hola%20Buenas,%20te%20queria%20pedir%20un%20Menú%20del%20Día%20Miercoles..." class="btn btn-primary" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Jueves</h4>
+                    </div>
+                    <div class="card-body">
+                        <img class="card-img-top" src="img/semana/filet.jpg" alt="Card image cap">
+                        <h5 class="card-title">Filete de merluza</h5>
+                        <p class="card-text">Vianda individual, incluye pan y cubiertos de ser necesario.</p>
+                        <a href="https://api.whatsapp.com/send?phone=+541151625702&text=Hola%20Buenas,%20te%20queria%20pedir%20un%20Menú%20del%20Día%20Jueves..." class="btn btn-primary" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Viernes</h4>
+                    </div>
+                    <div class="card-body">
+                        <img class="card-img-top" src="img/semana/arroz-pollo.jpg" alt="Card image cap">
+                        <h5 class="card-title">Arroz con pollo</h5>
+                        <p class="card-text">Vianda individual, incluye pan y cubiertos de ser necesario.</p>
+                        <a href="https://api.whatsapp.com/send?phone=+541151625702&text=Hola%20Buenas,%20te%20queria%20pedir%20un%20Menú%20del%20Día%20Viernes..." class="btn btn-primary" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--quienes somos-->
+    <section class="bg-light">
+        <div class="somos">
+            <h4>Quienes Somos</h4>
+            <p class="text-muted-1">Ale y ale nació en el corazón y idea de Alejandra Fernández la dueña y creadora de este lugar , no fue un impulso fue algo que nació del corazón hacia la mesa de cada comensal, cada una de las comidas y recetas lleva una identidad que nos
+                identifica cada comida que pruebes en este lugar te llevará a nuestro emblema y a nosotros ale y ale donde comer es como sentirte en hogar.
+            </p>
+            <div id="contacto">
+                <h4>Contacto</h4>
+                <p class="text-muted-1">Contactanos mediante nuesta <b>Linea Directa 2063-1350</b> o mediante <b>Whatsapp</b> pulsando el icono ubicado en la esquina inferior derecha estamos al pendiente de responderte todas las dudas y tomar tu pedido.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!--wpp-->
+    <div class="whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=+541151625702&text=Hola%20Buenas,%20te%20queria%20pedir..." target="_blank">
+            <img src="img/whatsapp.png" class="loading" data-was-processed="true">
+        </a>
+    </div>
+    <!--Boton llevar arriba-->
+    <div class="go-top-container">
+        <div class="go-top-button">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </div>
+    <!-- Footer-->
+    <footer class="footer py-4">
+        <div class="pie">
+            <h2 style="font-family:Monotype Corsiva, Times, Serif; height:46px;">Ale y Ale</h2>
+            <span class="slogan">Algo direfente al resto...</span>
+        </div>
+        <div class="pie-cont">
+            <h2 class="ubicacion">Ubicación:</h2>
+            <p class="ubi">
+                <a href="https://www.google.com/maps/place/Delivery+Ale+y+Ale/@-34.8551405,-58.5088657,17z/data=!4m5!3m4!1s0x95bccb8c4130beaf:0xfc24ce505d252012!8m2!3d-34.8551449!4d-58.506677" class="text-decoration-none" target="_blank">
+                Thames 547, Canning.
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"></path>
+                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
+                </svg>
+                </a>
+            </p>
+        </div>
+    </footer>
+    <div class="copy">
+        <div>
+            <p class="source-org copyright mb-1">Copyright © 2021 Diaz Adrián.</p>
+        </div>
+    </div>
+    <script src="js/boton.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
